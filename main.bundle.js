@@ -37710,7 +37710,7 @@
             case "electron":
             case "capacitor":
             case "jest":
-                e = "https://sites.google.com/view/poly-track/";
+                e = "https://sites.google.com/view/newcargame/";
                 break;
             case "itch":
                 e = "https://kodub.itch.io/polytrack";
@@ -41766,8 +41766,8 @@ var KT, qT, YT, XT, ZT, JT, $T, eC, tC, nC, iC, rC, aC, sC, oC, lC, cC, hC, dC, 
 gN = function(e) {
             kN(this, JD, "f").innerHTML = "";
             const t = document.createElement("a");
-            t.href = "https://www.sites.google.com/view/poly-track",
-            t.textContent = "sites.google.com/view/poly-track",
+            t.href = "https://www.sites.google.com/view/newcargame",
+            t.textContent = "sites.google.com/view/newcargame - v0.6.0 is out with multiplayer! Play now!",
             kN(this, JD, "f").appendChild(t);
             const n = document.createElement("a");
             n.href = "https://opengameart.org/content/sci-fi-theme-1",
@@ -41789,14 +41789,15 @@ gN = function(e) {
         ,
         wN = function() {
             if (null != kN(this, sN, "f")) {
-                const e = "https://www.sites.google.com/view/poly-track"
+                const e = "https://www.sites.google.com/view/newcargame"
                   , t = jT()
                   , n = kN(this, sN, "f");
+                n.innerHTML = '<a href="' + e + '">v0.6.0 is out with multiplayer! Play now!</a>'
                 t ? n.textContent = kN(this, jD, "f").get("It seems like you are playing an unofficial version of {0}. For the most up-to-date version please visit the original source:", ["PolyTrack"]) + " " : n.textContent = "",
                 n.className = t ? "warning-message" : "warning-message official-link";
                 const i = document.createElement("a");
                 i.href = e,
-                i.textContent = e,
+                i.textContent = "v0.6.0 is out with multiplayer! Play now!",
                 n.appendChild(i),
                 n.classList.remove("hidden")
             }
