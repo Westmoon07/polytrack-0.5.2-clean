@@ -5,5 +5,8 @@
   "scripts": {
     "test": "node scripts/run-tests.js",
     "update-fallbacks": "node scripts/update-track-fallbacks.js"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   }
 }
